@@ -1,0 +1,63 @@
+1. Tools Instaltion /Env Setup
+	
+	=>xampp/wampp
+	=>any ide(notepad++/vs/subline/brackets/ eclips /atom )
+	=>  any browser 
+	
+	
+2. how to convert html file into php
+
+	=> create a html File in:
+		xampp:
+			xampp/htdocs/UserDefineFolder/xyz.html/php
+		wampp:
+			wampp/www/UserDefineFolder/xyz.html/php
+	Convert HTML file To PHP
+	=> rename html file to PHP
+		ex: xyz.html  => xyz.php
+		
+3. how to run
+	=>open any browser then write file address in browser addressbar
+		localhost/foldername/fileName.html/php
+
+4. how to create varibale and use 
+	=> Useing $ sign we can define any variable in php
+		variable: variable is a memory location where we can store value
+		
+	value:
+		Data type
+		(0-9) Integere
+		(0.0-9.9) Float
+		('a','@','2') char
+		("apple", "apple09") String
+	Note: no need to define any data type name of any variable.
+
+	Print any things
+		
+		echo "";// for printing 
+		
+		
+	comment: ignored by compiler 
+	// single line comment 
+	/*   
+	Multiple line comment  
+	hi 
+	hello 
+	*/
+	
+	define variable 
+		Right Way
+			$a
+			$name
+			$UserName
+		Wrong 
+			$!a
+			$33aa
+			$_aa
+	Print variable 
+	
+	echo $variableName;
+	
+5. calculator method in php (+ - * / %(remender) 
+
+
