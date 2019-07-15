@@ -1,0 +1,86 @@
+database conection with mysql
+
+	A database is an organized/systematic  collection of data, generally 
+	 stored and accessed electronically from a computer system
+
+Database Management System (DBMS)
+	Database Management System (DBMS) is a collection of programs which 
+		enables its users to access database, manipulate data, reporting / 
+		representation of  data .
+
+There are 4 major types of DBMS.
+    Hierarchical - this type of DBMS employs the "parent-child" relationship of storing data. 
+
+    Network DBMS - this type of DBMS supports many-to many relations.
+
+    Relational DBMS - this type of DBMS defines database relationships in form of tables
+
+   Object Oriented Relation DBMS - The data to be stored is in form of objects. 
+
+SQL
+	Structured Query language (SQL) pronounced as "S-Q-L" or sometimes as 
+		"See-Quel"
+
+SQL commands are divided into four subgroups, DDL, DML, DCL, and TCL.
+
+	DDL is short name of Data Definition Language
+		CREATE - to create a database and its objects like (table)
+		ALTER - alters the structure of the existing database
+		DROP - delete objects from the database
+		TRUNCATE - remove all records from a table
+		COMMENT - add comments to the data dictionary
+		RENAME - rename an object
+	
+	DML is short name of Data Manipulation Language
+		SELECT - retrieve data from a database
+		INSERT - insert data into a table
+		UPDATE - updates existing data within a table
+		DELETE - Delete all records from a database table
+
+
+	DCL is short name of Data Control Language
+		GRANT - allow users access privileges to the database
+		REVOKE - withdraw users access privileges given by using the GRANT command
+
+	TCL is short name of Transaction Control Language
+		COMMIT - commits a Transaction
+		ROLLBACK - rollback a transaction in case of any error occurs
+		SAVEPOINT - to rollback the transaction making points within groups
+
+cd : change the Directory
+cd .. :- Change directory backward
+
+cd xampp/mysql/bin
+c:/xampp/mysql/bin >mysql -uroot -p 
+
+//Display all existiing database
+show databases;
+
+// create database
+ create database databaseName
+ create database phpStudy
+ 
+ //select database
+ 
+ use databaseName
+ 
+ 
+//Create a table
+		
+	create table tableName (columnName1 datatype(size) attributes,columnName2 datatype(Limit))
+
+create table student (id int(11) primary key auto_increment,stuName varchar(55))
+
+primary key (Unique key )
+auto_increment(increment forward one step)	
+ 
+ 
+insert into tableName (columnName ....) values(values,,)
+	values: int 12,134,154,
+			string "anita" "simran"
+			
+			
+//Get Data from table;
+
+//all data fetch
+	select * from tableName		
